@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Will Jekyll Template - [Demo](http://willianjusten.com.br/will-jekyll-template)
 
 ![Screenshot](screenshot.png)
@@ -113,46 +112,3 @@ If you liked my work, buy me a coffee <3
 This theme is free and open source software, distributed under the The MIT License. So feel free to use this Jekyll theme on your site without linking back to me or using a disclaimer.
 
 If you’d like to give me credit somewhere on your blog or tweet a shout out to [@willian_justen](https://twitter.com/willian_justen), that would be pretty sweet.
-
-
-
-
-=======
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/SoftEng-HEIGVD/Teaching-HEIGVD-TWEB-2017-Main/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SoftEng-HEIGVD/Teaching-HEIGVD-TWEB-2017-Main/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
->>>>>>> bdf66c27e4888a4108221a19cc8196b27114bdf8
