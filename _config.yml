@@ -1,6 +1,6 @@
 # Site settings
-title: A blog about lorem ipsum dolor sit amet
-description: A blog about lorem ipsum dolor sit amet
+title: TWEB 2017
+description: Modern web development
 baseurl: "/Teaching-HEIGVD-TWEB-2017-Main" # the subpath of your site, e.g. /blog
 url: "https://softeng-heigvd.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 

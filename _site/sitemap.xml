@@ -2,11 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	  <url>
-		<loc>http://localhost:3000/welcome-to-jekyll/</loc>
+		<loc>https://softeng-heigvd.github.io./welcome-to-jekyll/</loc>
 	  </url>
 	
 	  <url>
-		<loc>http://localhost:3000/how-to-use/</loc>
+		<loc>https://softeng-heigvd.github.io./welcome-to-jekyll/</loc>
+	  </url>
+	
+	  <url>
+		<loc>https://softeng-heigvd.github.io./how-to-use/</loc>
 	  </url>
 	
 </urlset>
