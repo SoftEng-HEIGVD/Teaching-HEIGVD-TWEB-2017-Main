@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>How to use</title>
-    <meta name="description" content="First steps to use this template">
+    <title>What is a linter?</title>
+    <meta name="description" content="Modern web development">
 
     <!-- Google Authorship Markup -->
     <link rel="author" href="https://plus.google.com/lorem_ipsum?rel=author">
@@ -14,24 +14,24 @@
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@lorem_ipsum">
-    <meta name="twitter:title" content="How to use">
-    <meta name="twitter:description" content="First steps to use this template">
+    <meta name="twitter:title" content="What is a linter?">
+    <meta name="twitter:description" content="Modern web development">
     
-    <meta property="twitter:image:src" content="https://softeng-heigvd.github.io/assets/img/blog-image.png">
+    <meta property="twitter:image:src" content="https://softeng-heigvd.github.io/assets/img/">
     
 
     <!-- Social: Facebook / Open Graph -->
-    <meta property="og:url" content="https://softeng-heigvd.github.io/how-to-use/">
-    <meta property="og:title" content="How to use">
+    <meta property="og:url" content="https://softeng-heigvd.github.io/what-is-a-linter/">
+    <meta property="og:title" content="What is a linter?">
     
-    <meta property="og:image" content="https://softeng-heigvd.github.io/assets/img/blog-image.png">
+    <meta property="og:image" content="https://softeng-heigvd.github.io/assets/img/">
     
-    <meta property="og:description" content="First steps to use this template">
+    <meta property="og:description" content="Modern web development">
     <meta property="og:site_name" content="TWEB 2017">
 
     <!-- Social: Google+ / Schema.org  -->
-    <meta itemprop="name" content="How to use"/>
-    <meta itemprop="description" content="First steps to use this template">
+    <meta itemprop="name" content="What is a linter?"/>
+    <meta itemprop="description" content="Modern web development">
     <meta itemprop="image" content="https://softeng-heigvd.github.io/assets/img/blog-image.png"/>
 
     <!-- Favicon -->
@@ -57,7 +57,7 @@
     <meta name="theme-color" content="#0562DC">
 
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://softeng-heigvd.github.io/how-to-use/">
+    <link rel="canonical" href="https://softeng-heigvd.github.io/what-is-a-linter/">
     <link rel="alternate" type="application/rss+xml" title="TWEB 2017" href="https://softeng-heigvd.github.io/feed.xml" />
 </head>
 
@@ -67,10 +67,10 @@
         <header class="header-post" role="banner">
     <div class="content">
         
-            <time itemprop="datePublished" datetime="2015-08-03 05:32:44 +0200" class="date">03 Aug 2015</time>
+            <time itemprop="datePublished" datetime="2017-09-19 15:45:30 +0200" class="date">19 Sep 2017</time>
         
-        <h1 class="post-title" itemprop="name">How to use</h1>
-        <p itemprop="description" class="subtitle">First steps to use this template</p>
+        <h1 class="post-title" itemprop="name">What is a linter?</h1>
+        <p itemprop="description" class="subtitle"></p>
     </div>
      <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
      <div class="search-wrapper">
@@ -120,112 +120,54 @@
         <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
             <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-                <p>This is a simple and minimalist template for Jekyll designed for developers that want to write blog posts but don’t want to care about frontend stuff.</p>
+                <p>Developers need rapid and frequent feedback. It makes them better. It makes their code better.</p>
 
-<p>The Theme features:</p>
+<p>Linters are one way to automatically provide  feedback to developers. The feedback is about code quality, code smells and coding guidelines.</p>
 
-<ul>
-  <li>Gulp</li>
-  <li>Stylus (Jeet, Rupture, Kouto Swiss)</li>
-  <li>Smoothscroll</li>
-  <li>Live Search</li>
-  <li>Offcanvas Menu</li>
-  <li>SVG icons</li>
-  <li>Shell Script to create posts</li>
-  <li>Tags page</li>
-  <li>Series page</li>
-  <li>About Me page</li>
-  <li>Feed RSS</li>
-  <li>Sitemap.xml</li>
-  <li>Color Customization</li>
-  <li>Info Customization</li>
-</ul>
+<p>A linter is a tool that performs a static analysis of your code and applies a set of rules to detect potential problems.</p>
 
-<h2 id="basic-setup">Basic Setup</h2>
+<p>For instance, it is easy for a linter to detect that a variable has been initialized but has never been reused. Is that a problem? Well, maybe it suggests that the developer has made a typo:</p>
 
-<ol>
-  <li><a href="http://jekyllrb.com">Install Jekyll</a></li>
-  <li>Fork the <a href="https://github.com/willianjusten/will-jekyll-template/fork">Will Jekyll Template</a></li>
-  <li>Clone the repo you just forked.</li>
-  <li>Edit <code class="highlighter-rouge">_config.yml</code> to personalize your site.</li>
-  <li>Check out the sample posts in <code class="highlighter-rouge">_posts</code> to see examples for assigning categories and tags, and other YAML data.</li>
-  <li>Read the documentation below for further customization pointers and documentation.</li>
-</ol>
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kr">const</span> <span class="nx">perfection</span> <span class="o">=</span> <span class="s1">'is nice'</span><span class="p">;</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">ferpection</span><span class="p">);</span> <span class="c1">// undefined</span></code></pre></figure>
 
-<h2 id="site-and-user-settings">Site and User Settings</h2>
+<p>Another important issue, especially when developing in teams, is to agree on conventions and to follow them. Should we use tabs or spaces? How should we name functions? Having clear rules helps with consistency. This is very important, especially if you think about the evolution and the maintenance of the codebase. Ask yourself this question:</p>
 
-<p>You have to fill some informations on <code class="highlighter-rouge">_config.yml</code> to customize your site.</p>
+<blockquote>
+  <p>If another developer needs to modify this file, how much time will he need to read and understand it?</p>
+</blockquote>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="c1"># Site settings</span>
-<span class="ss">description: </span><span class="no">A</span> <span class="n">blog</span> <span class="n">about</span> <span class="n">lorem</span> <span class="n">ipsum</span> <span class="n">dolor</span> <span class="n">sit</span> <span class="n">amet</span>
-<span class="ss">baseurl: </span><span class="s2">""</span> <span class="c1"># the subpath of your site, e.g. /blog/</span>
-<span class="ss">url: </span><span class="s2">"http://localhost:3000"</span> <span class="c1"># the base hostname &amp; protocol for your site </span>
+<p>A uniform codebase helps reduce this time. A uniform codebase helps save money.</p>
 
-<span class="c1"># User settings</span>
-<span class="ss">username: </span><span class="no">Lorem</span> <span class="no">Ipsum</span>
-<span class="ss">user_description: </span><span class="no">Anon</span> <span class="no">Developer</span> <span class="n">at</span> <span class="no">Lorem</span> <span class="no">Ipsum</span> <span class="no">Dolor</span>
-<span class="ss">user_title: </span><span class="no">Anon</span> <span class="no">Developer</span>
-<span class="ss">email: </span><span class="n">anon</span><span class="vi">@anon</span><span class="p">.</span><span class="nf">com</span>
-<span class="ss">twitter_username: </span><span class="n">lorem_ipsum</span>
-<span class="ss">github_username:  </span><span class="n">lorem_ipsum</span>
-<span class="ss">gplus_username:  </span><span class="n">lorem_ipsum</span>
-<span class="ss">disqus_username: </span><span class="n">lorem_ipsum</span></code></pre></figure>
+<h2 id="linters-for-web-development">Linters for Web development</h2>
 
-<h2 id="color-customization">Color customization</h2>
+<p>Static code analysis is particularly useful for web developers. A common complaint about Javascript is the fact that it is too easy to write messy and fragile code. There is not even a compiler to capture some of the errors introduced by developers. Guess what: a linter is precisely a tool that fills addresses this issue. In fact, it does more and is able to detect all sorts of bad practices.</p>
 
-<p>All color variables are in <code class="highlighter-rouge">src/styl/variable</code>. To change the main color, just set the new value at <code class="highlighter-rouge">main</code> assignment. Another colors are for texts and the code background color.</p>
+<h2 id="put-it-in-practice-with-eslint">Put it in practice with ESLint</h2>
 
-<h2 id="creating-posts">Creating posts</h2>
+<p>There are different Javascript linters in the community. JSHint and JSLint are two examples. Sonarlint is another one. The one that we propose to use is <a href="https://eslint.org/">ESLint</a>. It is very popular and has a nice pluggable architecture, which makes it extensible and configurable. ESLint can also be integrated with Visual Studio Code, which means that developers can get feedback directly in the IDE (and not only during the build process).</p>
 
-<p>You can use the <code class="highlighter-rouge">initpost.sh</code> to create your new posts. Just follow the command:</p>
+<p>The rules are documented <a href="https://eslint.org/docs/rules/">here</a>.</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash">./initpost.sh -c Post Title</code></pre></figure>
+<p>You can install ESLint with <code class="highlighter-rouge">npm</code>. In our setup, we install it locally to the project (not globally, with the <code class="highlighter-rouge">-g</code> flag). One thing to be aware, when using ESLint with Visual Studio Code, is that you need to restart the IDE whenever you change the linter configuration. <a href="https://github.com/Microsoft/vscode-eslint/issues/164">This might change in the future</a>.</p>
 
-<p>The new file will be created at <code class="highlighter-rouge">_posts</code> with this format <code class="highlighter-rouge">date-title.md</code>.</p>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="c"># install eslint locally to the project</span>
+npm install --save-dev eslint
 
-<h2 id="front-matter">Front-matter</h2>
+<span class="c"># initialize the config... follow the instructions</span>
+./node_modules/estlint/bin/eslint.js --init
 
-<p>When you create a new post, you need to fill the post information in the front-matter, follow this example:</p>
+<span class="c"># run the linter on your source file and see the result in the console</span>
+./node_modules/eslint/bin/eslint.js mycode.js</code></pre></figure>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">---</span>
-<span class="ss">layout: </span><span class="n">post</span>
-<span class="ss">title: </span><span class="s2">"How to use"</span>
-<span class="ss">date: </span><span class="mi">2015</span><span class="o">-</span><span class="mi">08</span><span class="o">-</span><span class="mo">03</span> <span class="mo">03</span><span class="p">:</span><span class="mi">32</span><span class="p">:</span><span class="mi">44</span>
-<span class="ss">image: </span><span class="s1">'/assets/img/post-image.png'</span>
-<span class="ss">description: </span><span class="s1">'First steps to use this template'</span>
-<span class="ss">tags:
-</span><span class="o">-</span> <span class="n">jekyll</span> 
-<span class="o">-</span> <span class="n">template</span> 
-<span class="ss">categories:
-</span><span class="o">-</span> <span class="no">I</span> <span class="n">love</span> <span class="no">Jekyll</span>
-<span class="ss">twitter_text: </span><span class="s1">'How to install and use this template'</span>
-<span class="o">---</span></code></pre></figure>
+<p>For french speakers, we have recorded a webcast that shows how to install ESLint, how to configure it with the <a href="https://github.com/airbnb/javascript">Airbnb Style Guide</a> and how to use it in Visual Studio Code.</p>
 
-<h2 id="running-the-blog-in-local">Running the blog in local</h2>
-
-<p>In order to compile the assets and run Jekyll on local you need to follow those steps:</p>
-
-<ul>
-  <li>Install <a href="https://nodejs.org/">NodeJS</a></li>
-  <li>Run <code class="highlighter-rouge">npm install</code></li>
-  <li>Run <code class="highlighter-rouge">gulp</code></li>
-</ul>
-
-<h2 id="questions">Questions</h2>
-
-<p>Having a problem getting something to work or want to know why I setup something in a certain way? Ping me on Twitter <a href="https://twitter.com/willian_justen">@willian_justen</a> or file a <a href="https://github.com/willianjusten/will-jekyll-template/issues/new">GitHub Issue</a>.</p>
-
-<h2 id="license">License</h2>
-
-<p>This theme is free and open source software, distributed under the The MIT License. So feel free to use this Jekyll theme on your site without linking back to me or using a disclaimer.</p>
-
-<p>If you’d like to give me credit somewhere on your blog or tweet a shout out to <a href="https://twitter.com/willian_justen">@willian_justen</a>, that would be pretty sweet.</p>
-
+<iframe width="640" height="360" src="https://www.youtube.com/embed/53IM2NYMH4Q" frameborder="0" allowfullscreen=""></iframe>
 
             </article>
 
             <footer>
-    <p><a href="http://jekyllrb.com/" target="_blank">Jekyll</a> template by <a href="https://willianjusten.com.br">Willian Justen</a></p>
+    <p>Olivier Liechti @ <a href="http://www.heig-vd.ch">HEIG-VD</a>. Thanks to <a href="https://willianjusten.com.br">Willian Justen</a> for the template.</p>
 </footer>
 <script src="/assets/js/main.js"></script>
         </section>

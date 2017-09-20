@@ -22,7 +22,7 @@
         mainFont(300)
         color main
         text-decoration none
-        border-bottom 2px solid main
+        /* border-bottom 2px solid main */
     iframe
         margin-top rem(30px)
         width 100%
@@ -85,12 +85,14 @@
 
 
 table
+    width 100%
+    max-width rem(800px)
     margin rem(50px) auto
     +below(cut)
         display none
     th, td
-        border rem(2px) solid #ccc
-        padding rem(5px)
+        border thin solid #ccc
+        padding rem(10px)
 
 .tag-title
     mainFont(300)
@@ -109,7 +111,7 @@ table
         padding 0 rem(20px)
     a
         display block
-        border-bottom 1px solid darken(lightGray,10%)
+        /* border-bottom 1px solid darken(lightGray,10%)*/
         padding rem(10px) 0
         text-decoration none
         transition all .5s
